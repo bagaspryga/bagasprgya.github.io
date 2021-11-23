@@ -34,36 +34,30 @@
   </head>
   <body id="home">
     <!-- navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-ms fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="https://github.com/bagaspryga">
-          <img src="img/github.svg" alt="" width="34" height="30" class="d-inline-block align-text-top" />
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-          </ul>
-        </div>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Portfolio</h5>
+        <span class="text-muted">Bagas Prayoga</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </nav>
     <!-- akhir navbar-->
+
+    <!--image-->
+    
+    <!--akhir image-->
 
     <!--jumbotron-->
     <div class="jumbotron text-center">
       <img src="img/photo_2021-11-20_05-19-38.jpg" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Bagas Prayoga</h1>
-      <p class="lead">college student | unemployment</p>
+      <p class="lead">Mahasiswa | Jomblo</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#FFFFFF"
@@ -81,15 +75,15 @@
       <div class="container">
         <div class="row text-center m-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2>Biodata</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-sm-4">
-            <p>My Name Is Bagas Prayoga. I live in Tanjung Morawa, North Sumatra.I was born in Medan, February 05th, 2003. I'm a student at STMIK Triguna Dharma Medan</p>
+            <p>Nama Saya Bagas Prayoga. Saya berdomisili di Tanjung Morawa, Sumatera Utara.Saya lahir di Medan, 05 Februari 2003. Saya mahasiswa semester 1 di STMIK Triguna Dharma Medan</p>
           </div>
           <div class="col-sm-4">
-            <p>My Hobbies Playing Mobile Legend and Modified Android. Since 15th grade, I started to get to know modifying Android and started Playing Mobile Legend since 16th grade in Vocational High School.</p>
+            <p>Hobi Saya Bermain game,modifikasi android dan belajar tentang programming. Sejak kelas 2 SMP, saya mulai mengenal modifikasi Android dan mulai mengenalprogramming sejak kelas 1 SMK.</p>
           </div>
         </div>
       </div>
@@ -110,7 +104,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>My Internship Experience</h2>
+            <h2>Dokumentasi PKL</h2>
           </div>
         </div>
         <div class="row justify-content-center m-3">
@@ -118,7 +112,7 @@
             <div class="card">
               <img src="img/IMG-20191125-WA0012.jpg" class="card-img-top" />
               <div class="card-body">
-                <p class="card-text text-center">Internship at Kualanamu International Airport</p>
+                <p class="card-text text-center">PKL Di Bandara International Kualanamu</p>
               </div>
             </div>
           </div>
@@ -126,7 +120,7 @@
             <div class="card">
               <img src="img/IMG-20191125-WA0013.jpg" class="card-img-top" />
               <div class="card-body">
-                <p class="card-text text-center">Internship at Kualanamu International Airport</p>
+                <p class="card-text text-center">PKL Di Bandara International Kualanamu</p>
               </div>
             </div>
           </div>
@@ -134,7 +128,7 @@
             <div class="card">
               <img src="img/photo_2021-11-20_08-38-55.jpg" class="card-img-top" />
               <div class="card-body">
-                <p class="card-text text-center">Internship at Kualanamu International Airport</p>
+                <p class="card-text text-center">PKL Di Bandara International Kualanamu</p>
               </div>
             </div>
           </div>
@@ -158,14 +152,14 @@
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2>Hubungi Saya</h2>
           </div>
         </div>
         <div class="row justify-content-center m-3">
           <div class="col-md-8">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
                 <input type="email" class="form-control" id="nama" aria-describedby="emailHelp" />
               </div>
               <div class="mb-3">
@@ -173,10 +167,10 @@
                 <input type="email" class="form-control" id="email" placeholder="name@gmail.com" />
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
           </div>
         </div>
@@ -186,7 +180,7 @@
 
     <!---Footer-->
     <footer class="bg-primary text-white">
-      <p>Created with <i class="bi bi-heart-fill"></i> by <a href="https://www.instagram.com/bagaspryg___/" class="text-white">Bagas Prayoga</a></p>
+      <p>Dibuat memakai <i class="bi bi-heart-fill"></i> oleh <a href="https://www.instagram.com/bagaspryg___/" class="text-white">Bagas Prayoga</a></p>
     </footer>
     <!--Akhir Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
